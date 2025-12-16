@@ -1,3 +1,7 @@
+import sys, os
+sys.path.append(os.path.join(os.getcwd(), "src"))
+
+
 import streamlit as st
 import pandas as pd
 import joblib

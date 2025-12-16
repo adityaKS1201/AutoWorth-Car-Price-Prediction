@@ -1,3 +1,7 @@
+import sys, os
+sys.path.append(os.path.join(os.getcwd(), "src"))
+
+
 import sys
 import os
 import streamlit as st
